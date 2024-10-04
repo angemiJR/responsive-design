@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
 
     body {
         max-width: 100vw;
@@ -30,6 +30,8 @@
         color: #242635;
     }
 
+    // i{float: right;}
+
     .navigation {
         max-width: 100%;
 
@@ -41,7 +43,7 @@
 
         nav {
             visibility: hidden;
-            width: 10px;
+            position: absolute;
 
 
             ul {
