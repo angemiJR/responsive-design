@@ -8,7 +8,6 @@ body {
     flex-wrap: wrap;
     align-items: center;
     margin: auto;
-    // border: 1px solid red;
 }
 
 h1 {
@@ -36,8 +35,7 @@ position: absolute;}
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    // border: 1px solid rgb(41, 30, 99);
-
+   
     nav {
         width: 267px;
         height: 25px;
@@ -74,7 +72,7 @@ position: absolute;}
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    // border: 1px solid rgb(60, 219, 121);
+ 
 
    
 }
@@ -86,21 +84,14 @@ position: absolute;}
     display: flex;
     flex-direction: column;
     justify-items: flex-start;
-    // border: 1px solid rgb(116, 60, 219);
+   
 }
 
 
-// .picture{
-//     max-width: 48%;
-//     height: 100%;
-//     margin: 20px;
-//     border: 1px solid rgb(219, 60, 185);
-// }
 
 .picture{
     height: 90%;
  
-    // border: 1px solid rgb(219, 60, 113);
 }
 
 .container2{
@@ -110,7 +101,7 @@ position: absolute;}
     display: flex;
     flex-direction: column;
     justify-content:center;
-    // border: 1px solid rgb(219, 60, 113);
+  
 }
 
 
