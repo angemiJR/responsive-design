@@ -90,8 +90,11 @@ position: absolute;}
 
 
 .picture{
-    height: 90%;
- 
+    width: 50%;
+    height: 100vh;
+    background-image: url(/images/index/Slider.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
 }
 
 .container2{
