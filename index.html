@@ -21,15 +21,28 @@
 
         <div class="navigation">
             <img src="/images/index/Logo.png" alt="logo head">
-           
-            <nav>
+
+            <nav class="topnav" id="myTopnav">
                 <ul>
                     <li><a href="">Works</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Contacts</a></li>
                 </ul>
             </nav>
-            <i class="fa-solid fa-ellipsis"></i>
+            <div class="dropdown">
+                <button class="dropdown_button">
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i
+                            class="fa-solid fa-ellipsis"></i></a>
+                </button>
+                <div class="content">
+                    <a href="">Works</a>
+                    <a href="">Services</a>
+                    <a href="">Contacts</a>
+                </div>
+            </div>
+
+
+
         </div>
         <div class="container2">
             <div class="text_container">
@@ -42,14 +55,25 @@
             </div>
         </div>
     </div>
-<div class="picture">
-    <!-- <picture>
+    <div class="picture">
+        <!-- <picture>
         <source media="(min-width: 1440px)" srcset="/images/index/Slider.png">
         <source media="(min-width: 768px) , (max-width: 1440px)" srcset="/images/index/768px.png">
         <source media="(min-width: 320px)" srcset="/images/index/320px.png">
         <img src="/images/index/Slider.png" alt="">
     </picture> -->
-</div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>
